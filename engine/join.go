@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/proullon/ramsql/engine/log"
-	"github.com/proullon/ramsql/engine/parser"
-	"github.com/proullon/ramsql/engine/protocol"
+	"github.com/iamnikolie/ramsql/engine/log"
+	"github.com/iamnikolie/ramsql/engine/parser"
+	"github.com/iamnikolie/ramsql/engine/protocol"
 )
 
 // virtualRow is the resultset after FROM and JOIN transformations

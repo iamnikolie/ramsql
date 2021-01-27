@@ -2,8 +2,8 @@ package engine
 
 import (
 	"fmt"
-	"github.com/proullon/ramsql/engine/log"
-	"github.com/proullon/ramsql/engine/parser"
+	"github.com/iamnikolie/ramsql/engine/log"
+	"github.com/iamnikolie/ramsql/engine/parser"
 	"strconv"
 	"time"
 )

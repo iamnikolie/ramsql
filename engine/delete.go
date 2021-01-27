@@ -4,9 +4,9 @@ import (
 	// "errors"
 	"fmt"
 
-	"github.com/proullon/ramsql/engine/log"
-	"github.com/proullon/ramsql/engine/parser"
-	"github.com/proullon/ramsql/engine/protocol"
+	"github.com/iamnikolie/ramsql/engine/log"
+	"github.com/iamnikolie/ramsql/engine/parser"
+	"github.com/iamnikolie/ramsql/engine/protocol"
 )
 
 func deleteExecutor(e *Engine, deleteDecl *parser.Decl, conn protocol.EngineConn) error {

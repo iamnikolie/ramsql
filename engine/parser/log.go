@@ -1,7 +1,7 @@
 package parser
 
 import (
-//"github.com/proullon/ramsql/engine/log"
+//"github.com/iamnikolie/ramsql/engine/log"
 )
 
 func debug(format string, v ...interface{}) {

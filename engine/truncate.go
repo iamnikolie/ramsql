@@ -3,9 +3,9 @@ package engine
 import (
 	"fmt"
 
-	"github.com/proullon/ramsql/engine/log"
-	"github.com/proullon/ramsql/engine/parser"
-	"github.com/proullon/ramsql/engine/protocol"
+	"github.com/iamnikolie/ramsql/engine/log"
+	"github.com/iamnikolie/ramsql/engine/parser"
+	"github.com/iamnikolie/ramsql/engine/protocol"
 )
 
 func truncateExecutor(e *Engine, trDecl *parser.Decl, conn protocol.EngineConn) error {
